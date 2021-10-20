@@ -27,9 +27,9 @@ driver.get(
     "http://wcmsdev:81/wcms/Main.aspx")
 time.sleep(1)
 driver.find_element_by_id(
-    "txtUserName").send_keys("summeritss2")
+    "txtUserName").send_keys("------")
 driver.find_element_by_id(
-    "txtPassword").send_keys("Pa123456")
+    "txtPassword").send_keys("------")
 driver.find_element_by_id(
     "btnLogin").click()
 print("Logging on", end="")
